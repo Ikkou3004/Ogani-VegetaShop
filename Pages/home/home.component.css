@@ -1,0 +1,147 @@
+.Logo img {
+    width: 120px;
+    height: 120px;
+    margin-right: 100px;
+}
+
+.Logo {
+    width: 100px;
+}
+
+.Logo button {
+    width: 130px;
+    border: none;
+    background-color: white;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    margin-left: 40px;
+
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: 15px;
+    height: 30%;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    background-color: #3dae54;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Menu ul {
+    font-size: large;
+}
+
+.Menu ul li a {
+    color: rgb(112, 147, 51);
+    font-weight: bolder;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info a {
+    margin-left: 20px;
+}
+
+.user-info i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.cart-count {
+    background-color: #369b3b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.adv {
+    margin-left: 332px;
+}
+
+.adv button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.Lastest-product h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: over;
+    text-decoration-color: #53cb59;
+    margin-right: 145px;
+}
+
+.Lastest-product button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+.Lastest-product {
+    margin-left: 192px;
+}
+
+.Featured-product h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: over;
+    text-decoration-color: #53cb59;
+}
